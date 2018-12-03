@@ -7,4 +7,4 @@ spring:
     password: wdx123456
     url: jdbc:mysql://118.25.71.240/springCloud_sell?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
 env:
-  hello,ok?????
+  hello,ok?really??

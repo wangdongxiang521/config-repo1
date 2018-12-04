@@ -6,5 +6,10 @@ spring:
     username: root
     password: wdx123456
     url: jdbc:mysql://118.25.71.240/springCloud_sell?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+  rabbitmq:
+      host: localhost
+      port: 5672
+      username: guest
+      password: guest  
 env:
   hello,ok?fuck  hahahahahahahhahahah

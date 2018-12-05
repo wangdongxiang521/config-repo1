@@ -1,0 +1,20 @@
+#zuul相关配置
+zuul:
+  routes:
+  #这个myshop随便写，叫qqqq也没关系
+    myShop:
+      path: /myShop/**
+      serviceId: shop
+      #敏感头信息，若想zuul把cookie传递过去，此处设置为空
+      sensitiveHeaders:
+  #排除某些路由，写法：减号加路径，如：- /shop/so
+#  ignored-patterns:
+#    - /**/so
+management:
+  security:
+    enabled: false
+#    stream:
+#      bindings:
+#        input:
+#          group: order
+#          content-type: application/json
